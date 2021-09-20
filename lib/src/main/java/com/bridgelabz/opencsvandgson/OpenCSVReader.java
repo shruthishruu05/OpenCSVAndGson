@@ -10,7 +10,7 @@ import java.util.List;
 
 public class OpenCSVReader
 {
-	private static final String SAMPLE_CSV_FILE = "users.csv";
+	private static final String SAMPLE_CSV_FILE = "user.csv";
 	public static void main(String[] args) throws IOException, CsvException 
 	{
 		try (
