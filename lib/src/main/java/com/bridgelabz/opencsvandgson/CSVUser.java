@@ -2,7 +2,8 @@ package com.bridgelabz.opencsvandgson;
 
 import com.opencsv.bean.CsvBindByName;
 
-public class CSVUser {
+public class CSVUser 
+{
     @CsvBindByName
     private String name;
 
