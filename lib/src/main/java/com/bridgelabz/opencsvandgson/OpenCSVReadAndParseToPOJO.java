@@ -9,7 +9,8 @@ import java.util.Iterator;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 
-public class OpenCSVReadAndParseToPOJO {
+public class OpenCSVReadAndParseToPOJO 
+{
 	private static final String SAMPLE_CSV_FILE_PATH ="users.csv";
 	
 	public static void main(String[] args) throws IOException {
