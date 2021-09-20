@@ -11,7 +11,8 @@ import java.util.List;
 public class OpenCSVReader
 {
 	private static final String SAMPLE_CSV_FILE = "users.csv";
-	public static void main(String[] args) throws IOException, CsvException {
+	public static void main(String[] args) throws IOException, CsvException 
+	{
 		try (
 			Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE));
 			CSVReader csvReader = new CSVReader(reader);
